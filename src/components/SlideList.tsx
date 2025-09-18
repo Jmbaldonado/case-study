@@ -85,6 +85,7 @@ export default function SlideList() {
                     {slide.icon}
                     <h2 className='text-xl font-bold'>{slide.title}</h2>
                   </div>
+                  <p>{slide.subtitle}</p>
                   <ul className='mt-4 space-y-2 text-gray-700'>
                     {slide.points?.map((p, j) => (
                       <li key={j} className='list-disc list-inside'>
